@@ -30,7 +30,7 @@ def kesha_maker(arr)
   new_arr = []
   arr.each do |curr|
     #new_arr << "#{curr[0, 1]}$#{curr[3]}"
-    curr[2] = $
+    curr[2] = "$"
     new_arr << curr
   end
 end
