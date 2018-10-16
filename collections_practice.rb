@@ -18,7 +18,7 @@ end
 
 def swap_elements(arr)
   replace = arr
-  arr[1] = replace[2]
+  arr[1] = arr[2]
   arr[2] = replace[1]
   return arr
 end   
