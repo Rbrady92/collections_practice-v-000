@@ -44,3 +44,7 @@ def find_a(arr)
   end
   new_arr
 end
+
+def sum_array(arr)
+  arr.reduce(:+)
+end 
