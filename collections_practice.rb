@@ -52,7 +52,7 @@ end
 def add_s(arr)
   count = 0
   arr.each do |curr|
-    count == 1 ? next : curr + "s"
+    count == 1 ? next : curr.concat("s")
     count += 1
   end
-end 
+end
