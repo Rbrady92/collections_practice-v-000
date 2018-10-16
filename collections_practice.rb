@@ -15,3 +15,10 @@ def sort_array_char_count(arr)
     a.length <=> b.length
   end
 end
+
+def swap_elements(arr)
+  replace = arr 
+  arr[1] = replace[2]
+  arr[2] = replace[1]
+  return arr
+end   
