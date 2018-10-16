@@ -34,7 +34,3 @@ def kesha_maker(arr)
     new_arr << curr
   end
 end
-
-
-
-  
